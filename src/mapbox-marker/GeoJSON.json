@@ -1,0 +1,28 @@
+ {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [8, 49]
+        },
+        "properties": {
+          "title": "Mapbox",
+          "description": "test 1"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [8.1, 49]
+        },
+        "properties": {
+          "title": "Mapbox",
+          "description": "test 2"
+        }
+      }
+    ]
+  }
+ 

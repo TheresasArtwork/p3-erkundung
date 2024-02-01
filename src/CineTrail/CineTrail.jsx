@@ -1,5 +1,3 @@
-function CineTrail() {
+export function CineTrail() {
   return <></>;
 }
-
-export default CineTrail;

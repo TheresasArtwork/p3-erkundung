@@ -1,5 +1,3 @@
-function TrekGo() {
+export function TrekGo() {
   return <></>;
 }
-
-export default TrekGo;

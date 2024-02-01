@@ -1,0 +1,17 @@
+.menu-wrap {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-link {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(138, 146, 197);
+  font-weight: 600;
+  transition: ease-out all 600ms;
+}
+
+.menu-link:hover {
+  color: rgb(43, 42, 42);
+}

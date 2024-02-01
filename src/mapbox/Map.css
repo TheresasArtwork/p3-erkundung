@@ -1,6 +1,5 @@
 .map-container {
-  width: 600px;
-  height: 400px;
+  height: 600px;
 }
 
 .sidebar {
@@ -17,7 +16,7 @@
 }
 
 .marker {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   border: 1px solid blue;
   color: white;
   padding: 20px;

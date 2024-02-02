@@ -21,7 +21,7 @@ const router = createBrowserRouter([
       </>
     ),
     children: [
-      { path: "/", element: <TrekGo /> },
+      { path: "/trekgo", element: <TrekGo /> },
       { path: "/cultivate", element: <Cultivate /> },
       { path: "/cinetrail", element: <CineTrail /> },
       { path: "/kidquest", element: <KidQuest /> },

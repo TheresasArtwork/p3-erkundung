@@ -5,7 +5,7 @@ export function Menu() {
   return (
     <>
       <div className="menu-wrap">
-        <Link to="/" className="menu-link">
+        <Link to="/trekgo" className="menu-link">
           TrekGo
         </Link>
         <Link to="/cultivate" className="menu-link">

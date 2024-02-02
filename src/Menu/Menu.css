@@ -1,7 +1,9 @@
 .menu-wrap {
-  margin-top: 15px;
+  background-color: white;
+  padding: 15px 0;
   display: flex;
   justify-content: space-around;
+  border-radius: 0 0 15px 15px;
 }
 
 .menu-link {
@@ -13,5 +15,9 @@
 }
 
 .menu-link:hover {
+  color: rgb(43, 42, 42);
+}
+
+.active {
   color: rgb(43, 42, 42);
 }

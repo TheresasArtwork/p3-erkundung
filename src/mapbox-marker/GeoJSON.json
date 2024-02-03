@@ -1,28 +1,72 @@
- {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [8, 49]
-        },
-        "properties": {
-          "title": "Mapbox",
-          "description": "test 1"
-        }
+{
+  "type": "MarkerCollection",
+  "allMarker": [
+    {
+      "markerType": "-1",
+      "app": "trekgo",
+      "geometry": {
+        "displayImage": "src/TrekGo/images/IMG_3466.jpg",
+        "coordinates": [8, 49]
       },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [8.1, 49]
-        },
-        "properties": {
-          "title": "Mapbox",
-          "description": "test 2"
-        }
+      "properties": {
+        "title": "Mapbox",
+        "description": "`${user.prename} Impression´",
+        "imageFullScreen": "imageURL"
+      },
+      "user": {
+        "prename": "Max",
+        "profileImage": "imageURL"
       }
-    ]
-  }
- 
+    },
+    {
+      "markerType": "-1",
+      "app": "trekgo",
+      "geometry": {
+        "displayImage": "src/TrekGo/images/IMG_7716.jpg",
+        "coordinates": [8.1, 49]
+      },
+      "properties": {
+        "title": "Mapbox",
+        "description": "Theresas Impression",
+        "imageFullScreen": "imageURL"
+      }
+    },
+    {
+      "markerType": "-1",
+      "app": "trekgo",
+      "geometry": {
+        "displayImage": "src/TrekGo/images/IMG_9769.jpg",
+        "coordinates": [8.2, 49.1]
+      },
+      "properties": {
+        "title": "Mapbox",
+        "description": "Theresas Impression",
+        "imageFullScreen": "imageURL"
+      }
+    },
+    {
+      "markerType": "-2",
+      "app": "cinetrail",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.3, 49]
+      },
+      "properties": {
+        "title": "Mapbox",
+        "description": "Cinetrail1"
+      }
+    },
+    {
+      "markerType": "-2",
+      "app": "cinetrail",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.4, 49]
+      },
+      "properties": {
+        "title": "Mapbox",
+        "description": "Cinetrail2"
+      }
+    }
+  ]
+}

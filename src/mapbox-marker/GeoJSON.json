@@ -67,6 +67,42 @@
         "title": "Mapbox",
         "description": "Cinetrail2"
       }
+    },
+    {
+      "markerType": "-3",
+      "app": "cultuvate",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.66756366870919, 49.8783339008918]
+      },
+      "properties": {
+        "title": "Mapbox",
+        "description": "FünffingerTurm"
+      }
+    },
+    {
+      "markerType": "-3",
+      "app": "cultuvate",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.658954377276139,49.87792938935216]
+      },
+      "properties": {
+        "title": "Mapbox",
+        "description": "Laternchen Hotzenplotz"
+      }
+    },
+    {
+      "markerType": "-3",
+      "app": "cultuvate",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.651195285279627,49.873460477704526]
+      },
+      "properties": {
+        "title": "Mapbox",
+        "description": "Langer Ludwig"
+      }
     }
   ]
 }

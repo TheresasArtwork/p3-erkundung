@@ -5,7 +5,7 @@ import App from "./App.jsx";
 import "./index.css";
 import { Menu } from "./Menu/Menu";
 import { TrekGo } from "./TrekGo/TrekGo";
-import { Cultivate } from "./Cultivate/Cultivate";
+import { Cultuvate } from "./Cultuvate/Cultuvate"
 import { CineTrail } from "./CineTrail/CineTrail";
 import { KidQuest } from "./KidQuest/KidQuest";
 
@@ -22,7 +22,7 @@ const router = createBrowserRouter([
     ),
     children: [
       { path: "/trekgo", element: <TrekGo /> },
-      { path: "/cultivate", element: <Cultivate /> },
+      { path: "/cultivate", element: <Cultuvate /> },
       { path: "/cinetrail", element: <CineTrail /> },
       { path: "/kidquest", element: <KidQuest /> },
     ],

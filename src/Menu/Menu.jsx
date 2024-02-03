@@ -16,12 +16,12 @@ export function Menu() {
           TrekGo
         </Link>
         <Link
-          to="/cultivate"
+          to="/cultuvate"
           className={`menu-link ${
-            location.pathname === "/cultivate" ? "active" : ""
+            location.pathname === "/cultuvate" ? "active" : ""
           }`}
         >
-          Cultivate
+          Cultuvate
         </Link>
         <Link
           to="/cinetrail"

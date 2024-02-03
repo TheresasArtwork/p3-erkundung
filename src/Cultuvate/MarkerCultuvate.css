@@ -1,0 +1,22 @@
+.cultuvate {
+  background-color: green;
+  width: 20px;
+  height: 40px;
+  position: relative;
+  cursor: pointer;
+  background: green;
+}
+
+.cultuvate:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 16px solid transparent;
+    border-top-color: green;
+    border-bottom: 0;
+    margin-left: -16px;
+    margin-bottom: -19px;
+  }

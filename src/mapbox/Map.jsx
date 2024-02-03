@@ -1,25 +1,17 @@
-import React, { useRef, useEffect, useState } from "react";
-import { createRoot } from 'react-dom/client';
+import React, { useRef, useEffect } from "react";
+import { createRoot } from "react-dom/client";
 import "./Map.css";
 import "../../config.js";
 import mapboxgl from "mapbox-gl"; // eslint-disable-line import/no-webpack-loader-syntax
 import { accessTokenMapbox } from "../../config.js";
-import geoJson from '../mapbox-marker/GeoJSON.json';
-
+import geoJson from "../mapbox-marker/GeoJSON.json";
+import MarkerTrekGo from "../TrekGo/MarkerTrekGo.jsx";
+import MarkerCinetrail from "../CineTrail/MarkerCinetrail.jsx";
 
 mapboxgl.accessToken = accessTokenMapbox;
 
-const Marker = ({ onClick, children, feature }) => {
-  const _onClick = () => {
-    onClick(feature.properties.description);
-  };
-
-  return (
-    <button onClick={_onClick} className="marker">
-      {children}
-    </button>
-  );
-};
+let lat = 8;
+let long = 49;
 
 const Map = () => {
   const mapContainerRef = useRef(null);
@@ -28,30 +20,49 @@ const Map = () => {
   useEffect(() => {
     const map = new mapboxgl.Map({
       container: mapContainerRef.current,
-      style: 'mapbox://styles/mapbox/streets-v11',
-      center: [8, 49],
-      zoom: 15,
+      style: "mapbox://styles/mapbox/light-v10",
+      center: [lat, long],
+      zoom: 10,
     });
 
-    // Render custom marker components
-    geoJson.features.forEach((feature) => {
-      // Create a React ref
+    geoJson.allMarker.forEach((feature) => {
       const ref = React.createRef();
-      // Create a new DOM node and save it to the React ref
-      ref.current = document.createElement('div');
-      // Render a Marker Component on our new DOM node
+      ref.current = document.createElement("div");
+
+      let CustomMarkerComponent;
+
+      switch (feature.markerType) {
+        case "Type1":
+          CustomMarkerComponent = MarkerTrekGo;
+          break;
+        case "Type2":
+          CustomMarkerComponent = MarkerCinetrail;
+          break;
+        // case "Type3":
+        //   CustomMarkerComponent = MarkerKidQuest;
+        //   break;
+        // case "Type4":
+        //   CustomMarkerComponent = MarkerCultivate;
+        //   break;
+        default:
+          CustomMarkerComponent = MarkerTrekGo; // Fallback, wenn kein passender Typ gefunden wurde
+      }
+
       createRoot(ref.current).render(
-        <Marker onClick={markerClicked} feature={feature} />
+        <CustomMarkerComponent
+          onClick={markerClicked}
+          feature={feature}
+          markerType={feature.markerType}
+        />
       );
 
-      // Create a Mapbox Marker at our new DOM node
       new mapboxgl.Marker(ref.current)
         .setLngLat(feature.geometry.coordinates)
         .addTo(map);
     });
 
     // Add navigation control (the +/- zoom buttons)
-    map.addControl(new mapboxgl.NavigationControl(), 'top-right');
+    map.addControl(new mapboxgl.NavigationControl(), "top-right");
 
     // Clean up on unmount
     return () => map.remove();

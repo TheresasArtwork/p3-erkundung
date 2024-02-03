@@ -1,3 +1,9 @@
+import { AddImageButton } from "./AddImageButton.jsx";
+
 export function TrekGo() {
-  return <></>;
+  return (
+    <>
+      <AddImageButton></AddImageButton>
+    </>
+  );
 }

@@ -2,7 +2,7 @@
   "type": "MarkerCollection",
   "allMarker": [
     {
-      "markerType": "-1",
+      "markerType": "Type1",
       "app": "trekgo",
       "geometry": {
         "displayImage": "src/TrekGo/images/IMG_3466.jpg",
@@ -19,7 +19,7 @@
       }
     },
     {
-      "markerType": "-1",
+      "markerType": "Type1",
       "app": "trekgo",
       "geometry": {
         "displayImage": "src/TrekGo/images/IMG_7716.jpg",
@@ -32,7 +32,7 @@
       }
     },
     {
-      "markerType": "-1",
+      "markerType": "Type1",
       "app": "trekgo",
       "geometry": {
         "displayImage": "src/TrekGo/images/IMG_9769.jpg",
@@ -45,7 +45,7 @@
       }
     },
     {
-      "markerType": "-2",
+      "markerType": "Type2",
       "app": "cinetrail",
       "geometry": {
         "type": "Point",
@@ -57,7 +57,7 @@
       }
     },
     {
-      "markerType": "-2",
+      "markerType": "Type2",
       "app": "cinetrail",
       "geometry": {
         "type": "Point",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "markerType": "-3",
+      "markerType": "Type3",
       "app": "cultuvate",
       "geometry": {
         "type": "Point",
@@ -81,7 +81,7 @@
       }
     },
     {
-      "markerType": "-3",
+      "markerType": "Type3",
       "app": "cultuvate",
       "geometry": {
         "type": "Point",
@@ -93,7 +93,7 @@
       }
     },
     {
-      "markerType": "-3",
+      "markerType": "Type3",
       "app": "cultuvate",
       "geometry": {
         "type": "Point",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "markerType": "-4",
+      "markerType": "Type4",
       "app": "KidQuest",
       "geometry": {
         "displayImage": "src/KidQuest/images/tree.jpg",

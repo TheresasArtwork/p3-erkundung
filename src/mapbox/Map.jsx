@@ -7,6 +7,7 @@ import { accessTokenMapbox } from "../../config.js";
 import geoJson from "../mapbox-marker/GeoJSON.json";
 import MarkerTrekGo from "../TrekGo/MarkerTrekGo.jsx";
 import MarkerCinetrail from "../CineTrail/MarkerCinetrail.jsx";
+import MarkerCultuvate from "../Cultuvate/MarkerCultuvate.jsx";
 
 mapboxgl.accessToken = accessTokenMapbox;
 
@@ -41,9 +42,9 @@ const Map = () => {
         // case "Type3":
         //   CustomMarkerComponent = MarkerKidQuest;
         //   break;
-        // case "Type4":
-        //   CustomMarkerComponent = MarkerCultivate;
-        //   break;
+         case "Type3":
+         CustomMarkerComponent = MarkerCultuvate;
+          break;
         default:
           CustomMarkerComponent = MarkerTrekGo; // Fallback, wenn kein passender Typ gefunden wurde
       }

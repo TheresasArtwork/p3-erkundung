@@ -22,7 +22,7 @@ const router = createBrowserRouter([
     ),
     children: [
       { path: "/trekgo", element: <TrekGo /> },
-      { path: "/cultivate", element: <Cultuvate /> },
+      { path: "/cultuvate", element: <Cultuvate /> },
       { path: "/cinetrail", element: <CineTrail /> },
       { path: "/kidquest", element: <KidQuest /> },
     ],

@@ -85,7 +85,7 @@
       "app": "cultuvate",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.658954377276139,49.87792938935216]
+        "coordinates": [8.658954377276139, 49.87792938935216]
       },
       "properties": {
         "title": "Mapbox",
@@ -97,11 +97,28 @@
       "app": "cultuvate",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.651195285279627,49.873460477704526]
+        "coordinates": [8.651195285279627, 49.873460477704526]
       },
       "properties": {
         "title": "Mapbox",
         "description": "Langer Ludwig"
+      }
+    },
+    {
+      "markerType": "-4",
+      "app": "KidQuest",
+      "geometry": {
+        "displayImage": "src/KidQuest/images/tree.jpg",
+        "coordinates": [8.652482230067271, 49.87859889133209]
+      },
+      "properties": {
+        "title": "Mapbox",
+        "description": " Example",
+        "imageFullScreen": "imageURL"
+      },
+      "user": {
+        "prename": "",
+        "profileImage": ""
       }
     }
   ]

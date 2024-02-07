@@ -1,0 +1,6 @@
+.location-name {
+  font-size: var(--h2-font-size);
+  font-weight: bold;
+  color: var(--yellow-accent-color);
+  margin-bottom: 15px;
+}

@@ -5,7 +5,7 @@ import App from "./App.jsx";
 import "./index.css";
 import { Menu } from "./Menu/Menu";
 import { TrekGo } from "./TrekGo/TrekGo";
-import { Cultuvate } from "./Cultuvate/Cultuvate"
+import { Cultuvate } from "./Cultuvate/Cultuvate";
 import { CineTrail } from "./CineTrail/CineTrail";
 import { KidQuest } from "./KidQuest/KidQuest";
 

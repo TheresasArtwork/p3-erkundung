@@ -1,0 +1,34 @@
+.current-song {
+  padding: 25px 0;
+  margin-bottom: 10px;
+}
+
+.current-song-title {
+  font-size: var(--h2-font-size);
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--lightest-font-color);
+}
+
+.current-song-desc {
+  font-size: var(--text-font-size);
+  color: var(--blue-accent-color);
+}
+
+.progress-bar {
+  height: 1px;
+  background-color: aliceblue;
+  margin-bottom: 25px;
+}
+
+.controls-container {
+  width: 180px;
+  margin: 0 auto 25px;
+}
+
+.controls {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}

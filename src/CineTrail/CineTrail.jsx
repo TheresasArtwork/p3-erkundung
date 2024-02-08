@@ -3,10 +3,12 @@ import { ImageHunt } from "./Modes/ImageMode/ImageHunt";
 import "./CineTrail.css";
 
 export function CineTrail() {
+  const location = "location2";
+
   return (
     <>
-      <Music></Music>
-      <ImageHunt></ImageHunt>
+      <Music location={location}></Music>
+      <ImageHunt location={location}></ImageHunt>
     </>
   );
 }

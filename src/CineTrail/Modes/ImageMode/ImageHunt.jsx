@@ -6,13 +6,13 @@ import { ImageNumber } from "./ImageNumber/ImageNumber";
 import { Instructions } from "./Instructions/Instructions";
 import { Clue } from "./Clue/Clue";
 
-export function ImageHunt() {
+export function ImageHunt({ location }) {
   return (
     <>
       <div className="cinetrail-container">
         <NavBar page="image"></NavBar>
-        <LocationName location="location1"></LocationName>
-        <Image location="location1"></Image>
+        <LocationName location={location}></LocationName>
+        <Image location={location}></Image>
         <ImageNumber></ImageNumber>
         <Instructions></Instructions>
         <Clue></Clue>

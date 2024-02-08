@@ -5,9 +5,8 @@ import { Image } from "../Elements/Image/Image";
 import { Player } from "./Player/Player";
 import { NextUp } from "./NextUp/NextUp";
 
-export function Music() {
+export function Music({ location }) {
   let nextUpElements = [];
-  const location = "location1";
   for (let i = 1; i < 4; i++) {
     nextUpElements.push(<NextUp key={i} number={i} location={location} />);
   }

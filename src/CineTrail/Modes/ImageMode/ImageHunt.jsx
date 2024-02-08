@@ -10,7 +10,7 @@ export function ImageHunt() {
   return (
     <>
       <div className="cinetrail-container">
-        <NavBar></NavBar>
+        <NavBar page="image"></NavBar>
         <LocationName location="location1"></LocationName>
         <Image location="location1"></Image>
         <ImageNumber></ImageNumber>

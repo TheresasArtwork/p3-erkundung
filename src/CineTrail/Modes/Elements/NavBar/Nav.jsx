@@ -1,7 +1,20 @@
 import "./Nav.css";
-import { GoBackIcon, ImageModeIcon, MapIcon } from "../../../Icons";
+import {
+  GoBackIcon,
+  ImageModeIcon,
+  MusicModeIcon,
+  MapIcon,
+} from "../../../Icons";
 
-export function NavBar() {
+export function NavBar({ page }) {
+  let shownModeIcon;
+
+  if (page === "music") {
+    shownModeIcon = <ImageModeIcon></ImageModeIcon>;
+  } else {
+    shownModeIcon = <MusicModeIcon></MusicModeIcon>;
+  }
+
   return (
     <>
       <div className="mode-nav cinetrail-padding">
@@ -9,7 +22,7 @@ export function NavBar() {
           <GoBackIcon></GoBackIcon>
         </div>
         <div className="mode-and-map">
-          <ImageModeIcon></ImageModeIcon>
+          {shownModeIcon}
           <MapIcon></MapIcon>
         </div>
       </div>

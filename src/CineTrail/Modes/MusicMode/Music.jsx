@@ -15,7 +15,7 @@ export function Music() {
   return (
     <>
       <div className="cinetrail-container">
-        <NavBar></NavBar>
+        <NavBar page="music"></NavBar>
         <LocationName location={location}></LocationName>
         <Image location={location}></Image>
         <Player location={location}></Player>

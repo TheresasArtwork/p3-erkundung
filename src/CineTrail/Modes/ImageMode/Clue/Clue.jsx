@@ -1,5 +1,5 @@
 import "./Clue.css";
-import { songData } from "../../../data/songdata";
+//import { songData } from "../../../data/songdata";
 import { ClueIcon } from "../../../Icons";
 
 export function Clue() {

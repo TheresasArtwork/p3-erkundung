@@ -8,7 +8,7 @@ export const imageData = {
     },
     {
       title: "Annoying manager",
-      url: "../images/liberty-annoying-manager.jpg",
+      url: "../../images/liberty-annoying-manager.jpg",
       clue1: "Look for the jewelry stand",
       clue2: "Search for the Staff Only door",
     },

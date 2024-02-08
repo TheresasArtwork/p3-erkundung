@@ -1,0 +1,24 @@
+.clues-container {
+}
+
+.clue-description {
+  color: var(--dark-grey-font-color);
+  font-size: var(--text-font-size);
+  margin-bottom: 10px;
+}
+
+.clue-container {
+  border: 1px solid var(--dark-blue-color);
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  color: var(--dark-grey-font-color);
+  display: flex;
+  align-items: center;
+}
+
+.clue-hider {
+  height: 38px;
+  flex-grow: 1;
+  background-color: grey;
+  margin-left: 10px;
+}

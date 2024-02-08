@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { createRoot } from "react-dom/client";
 import "./Map.css";
 import "../../config.js";
-import mapboxgl from "mapbox-gl"; // eslint-disable-line import/no-webpack-loader-syntax
+import mapboxgl from "mapbox-gl"; //eslint-disable-line import/no-webpack-loader-syntax
 import { accessTokenMapbox } from "../../config.js";
 import geoJson from "../mapbox-marker/GeoJSON.json";
 import MarkerTrekGo from "../TrekGo/MarkerTrekGo.jsx";
@@ -40,12 +40,13 @@ const Map = () => {
         case "Type2":
           CustomMarkerComponent = MarkerCinetrail;
           break;
-        case "Type4":
-          CustomMarkerComponent = MarkerKidQuest;
-          break;
         case "Type3":
           CustomMarkerComponent = MarkerCultuvate;
           break;
+        case "Type4":
+          CustomMarkerComponent = MarkerKidQuest;
+          break;
+
         default:
           CustomMarkerComponent = MarkerTrekGo; // Fallback, wenn kein passender Typ gefunden wurde
       }

@@ -1,10 +1,10 @@
 import "./App.css";
-import Map from "./mapbox/Map";
+//import Map from "./mapbox/Map";
 
 function App() {
   return (
     <>
-      <Map></Map>
+      {/* <Map></Map> */}
     </>
   );
 }

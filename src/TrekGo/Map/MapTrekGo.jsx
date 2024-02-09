@@ -1,11 +1,11 @@
 import React, { useRef, useEffect } from "react";
 import { createRoot } from "react-dom/client";
-import "../Map/MapTrekGo.css";
 import "../../../config.js";
 import mapboxgl from "mapbox-gl";
 import { accessTokenMapbox } from "../../../config.js";
 
 import MarkerTrekGo from "../Marker/MarkerTrekGo.jsx";
+import "../../index.css";
 
 mapboxgl.accessToken = accessTokenMapbox;
 
@@ -26,7 +26,6 @@ const MapTrekGo = ({ geoJson, onMarkerClick }) => {
 
     geoJson.allMarker.forEach((feature) => {
       if (feature.app === "trekgo") {
-        // Überprüfung der Anwendungsbezeichnung
         const ref = React.createRef();
         ref.current = document.createElement("div");
 

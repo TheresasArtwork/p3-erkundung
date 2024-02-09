@@ -8,7 +8,7 @@ import geoJson from "../mapbox-marker/GeoJSON.json";
 import MarkerTrekGo from "../TrekGo/Marker/MarkerTrekGo.jsx";
 import MarkerCinetrail from "../CineTrail/MarkerCinetrail.jsx";
 import MarkerCultuvate from "../Cultuvate/MarkerCultuvate.jsx";
-import MarkerKidQuest from "../KidQuest/MarkerKidQuest.jsx";
+import MarkerKidQuest from "../KidQuest/Marker/MarkerKidQuest.jsx";
 
 mapboxgl.accessToken = accessTokenMapbox;
 

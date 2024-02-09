@@ -5,8 +5,8 @@ import App from "./App.jsx";
 import "./index.css";
 import { Menu } from "./Menu/Menu";
 import TrekGo from "./TrekGo/TrekGo";
-import  Cultuvate  from "./Cultuvate/Cultuvate";
-import { CineTrail } from "./CineTrail/CineTrail";
+import Cultuvate from "./Cultuvate/Cultuvate";
+import CineTrail from "./CineTrail/CineTrail";
 import KidQuest from "./KidQuest/KidQuest";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";

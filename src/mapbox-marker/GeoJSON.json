@@ -4,44 +4,55 @@
     {
       "markerType": "Type1",
       "app": "trekgo",
-      "geometry": {
-        "displayImage": "src/TrekGo/images/takenPhotos/Mountain.jpg",
+      "id": 1,
+      "location": {
         "coordinates": [8, 49]
       },
       "properties": {
-        "title": "Mapbox",
-        "description": "Impression von ",
-        "imageFullScreen": "imageURL"
+        "imageFullScreen": "src/TrekGo/images/takenPhotos/Mountain.jpg",
+        "recordingDate": "24.07.2023",
+        "recordingTime": "13:33"
       },
       "user": {
-        "prename": "Max",
+        "firstName": "Max",
+        "lastName": "Mustermann",
         "profileImage": "imageURL"
       }
     },
     {
       "markerType": "Type1",
       "app": "trekgo",
-      "geometry": {
-        "displayImage": "src/TrekGo/images/takenPhotos/SnowyMountain.jpg",
+      "id": 2,
+      "location": {
         "coordinates": [8.1, 49]
       },
       "properties": {
-        "title": "Mapbox",
-        "description": "Theresas Impression",
-        "imageFullScreen": "imageURL"
+        "imageFullScreen": "src/TrekGo/images/takenPhotos/SnowyMountain.jpg",
+        "recordingDate": "24.07.2023",
+        "recordingTime": "13:57"
+      },
+      "user": {
+        "firstName": "Lena",
+        "lastName": "Musterfrau",
+        "profileImage": "imageURL"
       }
     },
     {
       "markerType": "Type1",
       "app": "trekgo",
-      "geometry": {
-        "displayImage": "src/TrekGo/images/takenPhotos/MountainVillage.jpg",
+      "id": 3,
+      "location": {
         "coordinates": [8.2, 49.1]
       },
       "properties": {
-        "title": "Mapbox",
-        "description": "Theresas Impression",
-        "imageFullScreen": "imageURL"
+        "imageFullScreen": "src/TrekGo/images/takenPhotos/MountainVillage.jpg",
+        "recordingDate": "24.07.2023",
+        "recordingTime": "14:05"
+      },
+      "user": {
+        "firstName": "Laura",
+        "lastName": "Musterfrau",
+        "profileImage": "imageURL"
       }
     },
     {

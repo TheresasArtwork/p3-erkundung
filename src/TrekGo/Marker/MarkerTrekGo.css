@@ -6,6 +6,7 @@
   border-radius: 1rem;
   position: relative;
   background: #fdb958;
+  cursor: pointer;
 }
 
 .trekgo:after {

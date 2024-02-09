@@ -1,7 +1,9 @@
+import PropTypes from "prop-types";
 import "./MarkerTrekGo.css";
 
 const MarkerTrekGo = ({ onClick, feature, markerType }) => {
   const _onClick = () => {
+    console.log(feature);
     onClick(feature.properties.description);
   };
 
@@ -15,3 +17,9 @@ const MarkerTrekGo = ({ onClick, feature, markerType }) => {
 };
 
 export default MarkerTrekGo;
+
+MarkerTrekGo.propTypes = {
+  onClick: PropTypes.any,
+  feature: PropTypes.any,
+  markerType: PropTypes.any,
+};

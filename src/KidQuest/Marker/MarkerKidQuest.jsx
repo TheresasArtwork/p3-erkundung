@@ -1,7 +1,9 @@
-import "./MarkerKidQuest.css";
+import PropTypes from "prop-types";
+import "../Marker/MarkerKidQuest.css";
 
 const MarkerKidQuest = ({ onClick, feature, markerType }) => {
   const _onClick = () => {
+    console.log(feature);
     onClick(feature.properties.description);
   };
 
@@ -15,3 +17,9 @@ const MarkerKidQuest = ({ onClick, feature, markerType }) => {
 };
 
 export default MarkerKidQuest;
+
+MarkerKidQuest.propTypes = {
+  onClick: PropTypes.any,
+  feature: PropTypes.any,
+  markerType: PropTypes.any,
+};

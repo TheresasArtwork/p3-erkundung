@@ -5,7 +5,7 @@ import "../../config.js";
 import mapboxgl from "mapbox-gl"; //eslint-disable-line import/no-webpack-loader-syntax
 import { accessTokenMapbox } from "../../config.js";
 import geoJson from "../mapbox-marker/GeoJSON.json";
-import MarkerTrekGo from "../TrekGo/MarkerTrekGo.jsx";
+import MarkerTrekGo from "../TrekGo/Marker/MarkerTrekGo.jsx";
 import MarkerCinetrail from "../CineTrail/MarkerCinetrail.jsx";
 import MarkerCultuvate from "../Cultuvate/MarkerCultuvate.jsx";
 import MarkerKidQuest from "../KidQuest/MarkerKidQuest.jsx";

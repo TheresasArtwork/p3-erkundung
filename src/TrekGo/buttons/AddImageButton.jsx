@@ -1,3 +1,5 @@
+import "./Button.css";
+
 export function AddImageButton() {
   return (
     <>

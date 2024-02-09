@@ -1,6 +1,5 @@
 .map-container {
   height: 600px;
-  border-radius: 1rem 1rem 0 0;
 }
 
 .sidebar {
@@ -14,16 +13,4 @@
   left: 0;
   margin: 12px;
   border-radius: 4px;
-}
-
-.cinetrail {
-  background-color: #4caf50;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  width: 50px;
-  height: 60px;
-  border-radius: 1rem;
 }

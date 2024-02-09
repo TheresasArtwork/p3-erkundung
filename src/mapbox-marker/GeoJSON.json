@@ -5,12 +5,12 @@
       "markerType": "Type1",
       "app": "trekgo",
       "geometry": {
-        "displayImage": "src/TrekGo/images/IMG_3466.jpg",
+        "displayImage": "src/TrekGo/images/takenPhotos/Mountain.jpg",
         "coordinates": [8, 49]
       },
       "properties": {
         "title": "Mapbox",
-        "description": "`${user.prename} Impression´",
+        "description": "Impression von ",
         "imageFullScreen": "imageURL"
       },
       "user": {
@@ -22,7 +22,7 @@
       "markerType": "Type1",
       "app": "trekgo",
       "geometry": {
-        "displayImage": "src/TrekGo/images/IMG_7716.jpg",
+        "displayImage": "src/TrekGo/images/takenPhotos/SnowyMountain.jpg",
         "coordinates": [8.1, 49]
       },
       "properties": {
@@ -35,7 +35,7 @@
       "markerType": "Type1",
       "app": "trekgo",
       "geometry": {
-        "displayImage": "src/TrekGo/images/IMG_9769.jpg",
+        "displayImage": "src/TrekGo/images/takenPhotos/MountainVillage.jpg",
         "coordinates": [8.2, 49.1]
       },
       "properties": {

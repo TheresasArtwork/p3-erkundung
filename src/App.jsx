@@ -1,6 +1,5 @@
-import { useRef, useEffect, useState } from "react";
 import "./App.css";
-import  Map  from "./mapbox/Map";
+import Map from "./mapbox/Map";
 
 function App() {
   return (

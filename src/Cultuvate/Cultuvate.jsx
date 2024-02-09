@@ -1,5 +1,5 @@
 import MapCultuvate from "./Map/MapCultuvate.jsx";
-//import PopupTrekGo from "./PopUpLayer/PopupTrekGo.jsx";
+import PopupCultuvate from "./Popuplayer/PopupCultuvate.jsx";
 import geoJson from "../mapbox-marker/GeoJSON.json";
 
 import { useState } from "react";
@@ -15,7 +15,7 @@ const Cultuvate= () => {
   return (
     <div className="parent-container">
       <MapCultuvate geoJson={geoJson} onMarkerClick={handleMarkerClick} />
-      {popupTitle && <PopupTrekGo title={popupTitle} />}
+      {popupTitle && <PopupCultuvate title={popupTitle} />}
     </div>
   );
 };

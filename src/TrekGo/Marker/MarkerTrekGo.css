@@ -1,11 +1,9 @@
 .trekgo {
-  background-color: #fdb958;
+  background-color: transparent;
   top: -66px;
   width: 80px;
   height: 100px;
-  border-radius: 1rem;
   position: relative;
-  background: #fdb958;
   cursor: pointer;
 }
 
@@ -16,16 +14,15 @@
   left: 50%;
   width: 0;
   height: 0;
-  border: 16px solid transparent;
+  border: 10px solid transparent;
   border-top-color: #fdb958;
   border-bottom: 0;
-  margin-left: -16px;
-  margin-bottom: -19px;
+  margin-left: -10px;
+  margin-bottom: -10px;
 }
 
 .trekgo img {
   width: 80px;
   height: 100px;
-  border: 3px solid #fdb958;
   border-radius: 1rem;
 }

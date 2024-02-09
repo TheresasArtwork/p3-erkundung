@@ -1,9 +1,24 @@
 .header-container {
+  padding-bottom: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 16px;
   align-items: center;
+  background: rgb(57, 55, 19);
+  background: linear-gradient(
+    180deg,
+    rgba(57, 55, 19, 0.5) 0%,
+    rgba(57, 55, 19, 0.37316176470588236) 60%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 h1 {
+  text-align: center;
   font-size: 24px;
+  font-weight: normal;
+}
+
+.headerImage-container img {
+  width: 42px;
 }

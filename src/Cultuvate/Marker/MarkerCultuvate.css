@@ -1,0 +1,9 @@
+.cultuvate {
+  background-color: #3B6A00;
+  width: 20px;
+  height: 20px;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  border: 4px solid #3B6A00;
+}
+

@@ -9,14 +9,14 @@
         "coordinates": [8, 49]
       },
       "properties": {
-        "imageFullScreen": "src/TrekGo/images/takenPhotos/Mountain.jpg",
+        "image": "src/TrekGo/images/takenPhotos/Mountain.jpg",
         "recordingDate": "24.07.2023",
         "recordingTime": "13:33"
       },
       "user": {
         "firstName": "Max",
         "lastName": "Mustermann",
-        "profileImage": "imageURL"
+        "profileImage": "src/TrekGo/images/userPictures/profileMax.png"
       }
     },
     {
@@ -27,14 +27,14 @@
         "coordinates": [8.1, 49]
       },
       "properties": {
-        "imageFullScreen": "src/TrekGo/images/takenPhotos/SnowyMountain.jpg",
+        "image": "src/TrekGo/images/takenPhotos/SnowyMountain.jpg",
         "recordingDate": "24.07.2023",
         "recordingTime": "13:57"
       },
       "user": {
-        "firstName": "Lena",
+        "firstName": "Laura",
         "lastName": "Musterfrau",
-        "profileImage": "imageURL"
+        "profileImage": "src/TrekGo/images/userPictures/profileLaura.png"
       }
     },
     {
@@ -45,14 +45,14 @@
         "coordinates": [8.2, 49.1]
       },
       "properties": {
-        "imageFullScreen": "src/TrekGo/images/takenPhotos/MountainVillage.jpg",
+        "image": "src/TrekGo/images/takenPhotos/MountainVillage.jpg",
         "recordingDate": "24.07.2023",
         "recordingTime": "14:05"
       },
       "user": {
-        "firstName": "Laura",
+        "firstName": "Theresa",
         "lastName": "Musterfrau",
-        "profileImage": "imageURL"
+        "profileImage": "src/TrekGo/images/userPictures/profileTheresa.png"
       }
     },
     {

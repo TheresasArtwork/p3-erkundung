@@ -106,7 +106,7 @@
     },
     {
       "markerType": "Type4",
-      "app": "KidQuest",
+      "app": "kidquest",
       "geometry": {
         "displayImage": "src/KidQuest/images/tree.jpg",
         "coordinates": [8.652482230067271, 49.87859889133209]

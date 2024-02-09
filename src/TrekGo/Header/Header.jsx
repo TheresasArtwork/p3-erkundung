@@ -1,21 +1,32 @@
+import PropTypes from "prop-types";
+
 import "../Header/Header.css";
 import { BackButton } from "../buttons/backButton";
+import HeaderImage from "./HeaderImage";
 import HeaderTitle from "./HeaderTitle";
 
-const Header = () => {
+const Header = ({ onClose, userFirstName, userProfilePicture }) => {
   return (
     <>
       <div className="header-container">
         <div>
-          <BackButton />
+          <BackButton onClose={onClose}></BackButton>
         </div>
         <div>
-          <HeaderTitle />
+          <HeaderTitle userFirstName={userFirstName} />
         </div>
-        <div>profileImage</div>
+        <div>
+          <HeaderImage userProfilePicture={userProfilePicture} />
+        </div>
       </div>
     </>
   );
 };
 
 export default Header;
+
+Header.propTypes = {
+  onClose: PropTypes.func,
+  userFirstName: PropTypes.string,
+  userProfilePicture: PropTypes.string,
+};

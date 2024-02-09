@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 import React, { useRef, useEffect } from "react";
 import { createRoot } from "react-dom/client";
 import "../../../config.js";
@@ -9,8 +11,8 @@ import "../../index.css";
 
 mapboxgl.accessToken = accessTokenMapbox;
 
-let lat = 8;
-let long = 49;
+let lat = 8.1;
+let long = 49.1;
 
 const MapTrekGo = ({ geoJson, onMarkerClick }) => {
   const mapContainerRef = useRef(null);
@@ -38,7 +40,7 @@ const MapTrekGo = ({ geoJson, onMarkerClick }) => {
         );
 
         new mapboxgl.Marker(ref.current)
-          .setLngLat(feature.geometry.coordinates)
+          .setLngLat(feature.location.coordinates)
           .addTo(map);
       }
     });
@@ -58,3 +60,8 @@ const MapTrekGo = ({ geoJson, onMarkerClick }) => {
 };
 
 export default MapTrekGo;
+
+MapTrekGo.propTypes = {
+  geoJson: PropTypes.any,
+  onMarkerClick: PropTypes.func,
+};

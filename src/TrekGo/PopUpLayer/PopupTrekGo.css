@@ -1,0 +1,12 @@
+.popup-trekgo {
+  /* background-image: url("../images/takenPhotos/Mountain.jpg"); */
+  position: absolute;
+  top: 58px;
+  width: 408px;
+  height: 600px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  z-index: 999;
+  background-color: aqua;
+  color: white;
+}

@@ -1,5 +1,4 @@
 import "./ImageHunt.css";
-import { NavBar } from "../Elements/NavBar/Nav";
 import { LocationName } from "../Elements/Location/Location";
 import { Image } from "../Elements/Image/Image";
 import { ImageNumber } from "./ImageNumber/ImageNumber";
@@ -10,7 +9,6 @@ export function ImageHunt({ location }) {
   return (
     <>
       <div>
-        <NavBar page="image"></NavBar>
         <LocationName location={location}></LocationName>
         <Image location={location}></Image>
         <ImageNumber></ImageNumber>

@@ -6,14 +6,12 @@ import {
   MapIcon,
 } from "../../../Icons";
 
-export function NavBar({ page }) {
-  let shownModeIcon;
-
-  if (page === "music") {
-    shownModeIcon = <ImageModeIcon></ImageModeIcon>;
-  } else {
-    shownModeIcon = <MusicModeIcon></MusicModeIcon>;
-  }
+export function NavBar({ mode, setMode }) {
+  const handleMode = () => {
+    {
+      mode === "music" ? setMode("image") : setMode("music");
+    }
+  };
 
   return (
     <>
@@ -22,8 +20,16 @@ export function NavBar({ page }) {
           <GoBackIcon></GoBackIcon>
         </div>
         <div className="mode-and-map">
-          {shownModeIcon}
-          <MapIcon></MapIcon>
+          <div className="mode-icon" onClick={handleMode}>
+            {mode === "music" ? (
+              <ImageModeIcon></ImageModeIcon>
+            ) : (
+              <MusicModeIcon></MusicModeIcon>
+            )}
+          </div>
+          <div className="map-icon">
+            <MapIcon></MapIcon>
+          </div>
         </div>
       </div>
     </>

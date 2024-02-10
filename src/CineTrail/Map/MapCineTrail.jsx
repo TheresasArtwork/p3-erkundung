@@ -11,7 +11,7 @@ import "../../index.css";
 mapboxgl.accessToken = accessTokenMapbox;
 
 let lat = 0.5;
-let long = 51;
+let long = 51.3;
 
 const MapCineTrail = ({ geoJson, onMarkerClick }) => {
   const mapContainerRef = useRef(null);

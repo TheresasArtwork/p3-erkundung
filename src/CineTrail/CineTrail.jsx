@@ -16,12 +16,24 @@ const CineTrail = () => {
       : setLocation("location2");
   };
 
+  const handleClosePopup = () => {
+    setPopupTitle("");
+  };
+
   return (
     <div className="parent-container">
       <MapCineTrail geoJson={geoJson} onMarkerClick={handleMarkerClick} />
-      {popupTitle && <PopupCineTrail title={popupTitle} location={location} />}
+      {popupTitle && (
+        <PopupCineTrail
+          title={popupTitle}
+          location={location}
+          onClose={handleClosePopup}
+        />
+      )}
     </div>
   );
 };
 
 export default CineTrail;
+
+// {popupTitle && ... - if popupTitle is not empty, then && ... can be performed

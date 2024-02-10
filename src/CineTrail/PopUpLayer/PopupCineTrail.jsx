@@ -4,13 +4,13 @@ import { NavBar } from "../Modes/Elements/NavBar/Nav";
 import { Music } from "../Modes/MusicMode/Music";
 import { ImageHunt } from "../Modes/ImageMode/ImageHunt";
 
-const PopupCineTrail = ({ location }) => {
+const PopupCineTrail = ({ location, onClose }) => {
   const [mode, setMode] = useState("music");
 
   return (
     <>
       <div className="popup-cinetrail">
-        <NavBar mode={mode} setMode={setMode}></NavBar>
+        <NavBar mode={mode} setMode={setMode} onClose={onClose}></NavBar>
         {mode === "music" ? (
           <Music location={location}></Music>
         ) : (

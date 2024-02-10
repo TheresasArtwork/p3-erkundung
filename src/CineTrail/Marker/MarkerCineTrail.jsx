@@ -3,7 +3,7 @@ import "./MarkerCineTrail.css";
 
 const MarkerCineTrail = ({ onClick, feature, markerType }) => {
   const _onClick = () => {
-    console.log(feature);
+    //console.log(feature);
     onClick(feature.properties.description);
   };
 

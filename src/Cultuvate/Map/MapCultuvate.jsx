@@ -8,8 +8,8 @@ import { accessTokenMapbox } from "../../../config.js";
 import MarkerCultuvate from "../Marker/MarkerCultuvate.jsx";
 mapboxgl.accessToken = accessTokenMapbox;
 
-let lat = 8;
-let long = 49;
+let lat = 8.6512;
+let long = 49.8728;
 
 const MapCultuvate = ({ geoJson, onMarkerClick }) => {
   const mapContainerRef = useRef(null);

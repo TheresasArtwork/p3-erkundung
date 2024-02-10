@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "SpartanMB-Regular";
+    src: url("./fonts/spartan-mb/SpartanMB-Regular.otf"); 
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SpartanMB-SemiBold";
+    src: url("./fonts/spartan-mb/SpartanMB-SemiBold.otf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "SpartanMB-Bold";
+    src: url("./fonts/spartan-mb/SpartanMB-Bold.otf");
+    font-weight: bolder;
+}
+
+.parent-container {
+    font-family: "SpartanMB-Regular";
+}

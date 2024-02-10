@@ -1,11 +1,10 @@
 .popup-cultuvate {
-  /* background-image: url("../images/takenPhotos/Mountain.jpg"); */
   position: absolute;
   top: 58px;
   width: 408px;
   height: 600px;
   border: 1px solid #ccc;
   z-index: 999;
-  background-color: aqua;
-  color: white;
+  background-color: #F7F8F9;
+  color: black;
 }

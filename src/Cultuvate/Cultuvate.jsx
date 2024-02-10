@@ -1,3 +1,4 @@
+import "../Cultuvate/Cultuvate.css"
 import MapCultuvate from "./Map/MapCultuvate.jsx";
 import PopupCultuvate from "./Popuplayer/PopupCultuvate.jsx";
 import geoJson from "../mapbox-marker/GeoJSON.json";

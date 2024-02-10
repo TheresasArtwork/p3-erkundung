@@ -13,7 +13,7 @@ export function Music({ location }) {
 
   return (
     <>
-      <div className="cinetrail-container">
+      <div>
         <NavBar page="music"></NavBar>
         <LocationName location={location}></LocationName>
         <Image location={location}></Image>

@@ -1,11 +1,32 @@
 .popup-cinetrail {
-  /* background-image: url("../images/takenPhotos/Mountain.jpg"); */
   position: absolute;
   top: 58px;
   width: 408px;
-  height: 600px;
-  border: 1px solid #ccc;
+  height: 605px;
   z-index: 999;
-  background-color: aqua;
-  color: red;
+
+  /* colors*/
+  --background-color: #21201e;
+  --lightest-font-color: #e7e7e7;
+  --light-grey-font-color: #959595;
+  --dark-grey-font-color: #646464;
+  --dark-blue-color: #253858;
+  --blue-accent-color: #46d3ff;
+  --yellow-accent-color: #fff500;
+
+  /*fonts*/
+  --largest-font-size: 30px;
+  --h2-font-size: 18px;
+  --h3-font-size: 17px;
+  --h4-font-size: 15px;
+  --text-font-size: 13px;
+  --music-timestamps-font-size: 10px;
+
+  background-color: var(--background-color);
+  overflow: auto;
+  font-family: sans-serif;
+}
+
+.cinetrail-padding {
+  padding: 0 25px;
 }

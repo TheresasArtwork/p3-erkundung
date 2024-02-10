@@ -9,7 +9,7 @@ import { Clue } from "./Clue/Clue";
 export function ImageHunt({ location }) {
   return (
     <>
-      <div className="cinetrail-container">
+      <div>
         <NavBar page="image"></NavBar>
         <LocationName location={location}></LocationName>
         <Image location={location}></Image>

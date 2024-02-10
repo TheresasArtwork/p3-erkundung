@@ -13,6 +13,9 @@
         "recordingDate": "24.07.2023",
         "recordingTime": "13:33"
       },
+      "socials": {
+        "likedBy": ["Laura", "Theresa"]
+      },
       "user": {
         "firstName": "Max",
         "lastName": "Mustermann",
@@ -31,6 +34,9 @@
         "recordingDate": "24.07.2023",
         "recordingTime": "13:57"
       },
+      "socials": {
+        "likedBy": ["Max"]
+      },
       "user": {
         "firstName": "Laura",
         "lastName": "Musterfrau",
@@ -48,6 +54,9 @@
         "image": "src/TrekGo/images/takenPhotos/MountainVillage.jpg",
         "recordingDate": "24.07.2023",
         "recordingTime": "14:05"
+      },
+      "socials": {
+        "likedBy": []
       },
       "user": {
         "firstName": "Theresa",

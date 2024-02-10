@@ -60,7 +60,7 @@
       "app": "cinetrail",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.3, 49]
+        "coordinates": [-0.14, 51.5139]
       },
       "properties": {
         "title": "Mapbox",
@@ -72,7 +72,7 @@
       "app": "cinetrail",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.4, 49]
+        "coordinates": [1.1061, 51.4432]
       },
       "properties": {
         "title": "Mapbox",

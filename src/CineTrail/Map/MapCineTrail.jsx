@@ -10,8 +10,8 @@ import "../../index.css";
 
 mapboxgl.accessToken = accessTokenMapbox;
 
-let lat = 8;
-let long = 49;
+let lat = 0.5;
+let long = 51;
 
 const MapCineTrail = ({ geoJson, onMarkerClick }) => {
   const mapContainerRef = useRef(null);
@@ -22,7 +22,7 @@ const MapCineTrail = ({ geoJson, onMarkerClick }) => {
       container: mapContainerRef.current,
       style: "mapbox://styles/mapbox/light-v10",
       center: [lat, long],
-      zoom: 10,
+      zoom: 7,
     });
 
     geoJson.allMarker.forEach((feature) => {

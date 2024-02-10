@@ -1,0 +1,17 @@
+.commentInput-container {
+  margin: 16px 0 12px 0;
+}
+
+.commentInput {
+  color: #281700;
+  font-size: 16px;
+  width: 95%;
+  border: none;
+  height: 58px;
+  padding-left: 16px;
+  border-radius: 15px;
+}
+
+input[type="text"]:focus {
+  border: none;
+}

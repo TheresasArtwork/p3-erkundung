@@ -1,0 +1,14 @@
+.content-container-position {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(57, 43, 19, 0) 10%,
+    rgba(19, 53, 57, 0.5) 30%,
+    rgba(19, 53, 57, 0.8) 100%
+  );
+}
+.content-container {
+  margin: 20px;
+}

@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-import "../Header/Header.css";
+import "../Header/style/Header.css";
 import { BackButton } from "../buttons/backButton";
 import HeaderImage from "./HeaderImage";
 import HeaderTitle from "./HeaderTitle";

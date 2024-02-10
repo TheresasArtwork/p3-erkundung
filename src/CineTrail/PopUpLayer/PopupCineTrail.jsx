@@ -4,8 +4,7 @@ import { NavBar } from "../Modes/Elements/NavBar/Nav";
 import { Music } from "../Modes/MusicMode/Music";
 import { ImageHunt } from "../Modes/ImageMode/ImageHunt";
 
-const PopupCineTrail = () => {
-  const location = "location2";
+const PopupCineTrail = ({ location }) => {
   const [mode, setMode] = useState("music");
 
   return (

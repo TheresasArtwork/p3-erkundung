@@ -1,0 +1,11 @@
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: "SpartanMB-Bold";
+    font-weight: bold;
+    font-size: 20px;
+}

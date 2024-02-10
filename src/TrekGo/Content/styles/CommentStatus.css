@@ -1,0 +1,7 @@
+.commentStatus-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  align-items: center;
+  margin-top: 16px;
+}

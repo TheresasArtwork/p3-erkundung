@@ -13,12 +13,18 @@ const TrekGo = () => {
   const [popupImage, setPopupImage] = useState("");
   const [popupUserFirstName, setPopupUserFirstName] = useState("");
   const [popupUserProfilePicture, setPopupUserProfilePicture] = useState("");
+  const [popupRecordingDate, setPopupRecordingDate] = useState("");
+  const [popupRecordingTime, setPopupRecordingTime] = useState("");
+  const [popupLikedBy, setPopupLikedBy] = useState("");
   const [, setIsPopupOpen] = useState(false);
 
   const handleMarkerClick = (feature) => {
     setPopupImage(feature.properties.image);
     setPopupUserFirstName(feature.user.firstName);
     setPopupUserProfilePicture(feature.user.profileImage);
+    setPopupRecordingDate(feature.properties.recordingDate);
+    setPopupRecordingTime(feature.properties.recordingTime);
+    setPopupLikedBy(feature.socials.likedBy.length);
     setIsPopupOpen(true);
   };
 
@@ -36,6 +42,9 @@ const TrekGo = () => {
           image={popupImage}
           userFirstName={popupUserFirstName}
           userProfilePicture={popupUserProfilePicture}
+          recordingDate={popupRecordingDate}
+          recordingTime={popupRecordingTime}
+          likedBy={popupLikedBy}
         />
       )}
     </div>

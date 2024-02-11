@@ -5,6 +5,7 @@ import Header from "../CultuvateHeader/Header";
 import ContentContainer from "../Contentcontainer/Contentcontainer";
 import Task from "../task/Task";
 import QuestTitle from "../Questtitle/Questtitle";
+import StartButton from "../buttons/StartButton";
 
 const PopupCultuvate = ({
   imagequest,
@@ -35,6 +36,9 @@ const PopupCultuvate = ({
         <div className="task-container">
                 <Task task={task}></Task>
       </div> 
+      <div>
+        <StartButton></StartButton>
+      </div>
       </div>
       
 

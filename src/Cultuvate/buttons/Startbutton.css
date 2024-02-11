@@ -1,0 +1,11 @@
+.startbutton-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    height: 55px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 20px;
+}

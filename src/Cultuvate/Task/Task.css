@@ -3,8 +3,10 @@
     margin: 0 10px; 
     color: black;
     font-size: 16px;
+    
 }
 
 p {
     font-family: "Inter";
+    padding-bottom: 0px;
 }

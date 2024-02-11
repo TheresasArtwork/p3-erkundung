@@ -96,6 +96,8 @@
         "coordinates": [8.66756366870919, 49.8783339008918]
       },
       "properties": {
+        "imagequest": "src/Cultuvate/imageContent/fünffingerturm.png",
+        "quest": "Quest2",
         "title": "Mapbox",
         "description": "FünffingerTurm"
       }
@@ -108,18 +110,24 @@
         "coordinates": [8.658954377276139, 49.87792938935216]
       },
       "properties": {
-        "title": "Mapbox",
+
+        "imagequest": "src/Cultuvate/imageContent/lantern 1.png",
+        "quest": "Quest6",
+         "title": "Mapbox",
         "description": "Laternchen Hotzenplotz"
       }
     },
     {
       "markerType": "Type3",
+     
       "app": "cultuvate",
       "geometry": {
         "type": "Point",
         "coordinates": [8.651195285279627, 49.873460477704526]
       },
-      "properties": {
+      "properties": { 
+        "imagequest": "src/Cultuvate/imageContent/Photoquest.png",
+        "quest": "Quest1",
         "title": "Mapbox",
         "description": "Langer Ludwig"
       }

@@ -7,16 +7,23 @@ import { useState } from "react";
 
 
 const Cultuvate= () => {
-  const [popupTitle, setPopupTitle] = useState("");
 
-  const handleMarkerClick = () => {
-    setPopupTitle("Neuer Popup-Titel");
+  const [popupImage, setPopupImage] = useState("")
+  const [popQuestName, setPopupQuestName] = useState ("");
+
+  const handleMarkerClick = (feature) => {
+    setPopupImage(feature.properties.imagequest);
+    setPopupQuestName(feature.properties.quest);
   };
 
   return (
     <div className="parent-container">
       <MapCultuvate geoJson={geoJson} onMarkerClick={handleMarkerClick} />
-      {popupTitle && <PopupCultuvate title={popupTitle} />}
+      {popQuestName && (
+      <PopupCultuvate
+      quest={popQuestName}
+      imagequest={popupImage}
+      />)}
     </div>
   );
 };

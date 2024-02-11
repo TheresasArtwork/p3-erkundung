@@ -1,17 +1,27 @@
-import "../CultuvateHeader/Header.css"
-import { Button } from "../buttons/Button";
+import PropTypes from "prop-types";
 
-function Header() {
+import "../CultuvateHeader/Header.css"
+import QuestTitle from "./HeaderTitle";
+import Button  from "../buttons/Button.jsx";
+
+
+
+const Header = ({quest}) => {
     return (
       <header className="container-header">
         <div>
-            <Button></Button>
+          <Button></Button> 
         </div>
-        <h1> Quest1
-        </h1>
+        <div>
+           < QuestTitle quest={quest}></QuestTitle>
+        </div>
         <button>Rechts</button>
       </header>
     );
   }
   
   export default Header;
+
+  Header.propTypes ={
+    quest: PropTypes.string
+  }

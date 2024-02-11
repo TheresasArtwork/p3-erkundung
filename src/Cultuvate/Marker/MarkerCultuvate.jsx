@@ -3,15 +3,13 @@ import "./MarkerCultuvate.css";
 
 const MarkerCultuvate = ({ onClick, feature, markerType }) => {
   const _onClick = () => {
-    console.log(feature);
-    onClick(feature.properties.description);
+    onClick(feature);
   };
 
   const partOfApp = `${feature.app}`;
 
   return (
     <div onClick={_onClick} className={`marker ${partOfApp} ${markerType} `}>
-      <img src={feature.geometry.displayImage} alt="marker"></img>
     </div>
   );
 };
@@ -19,7 +17,7 @@ const MarkerCultuvate = ({ onClick, feature, markerType }) => {
 export default MarkerCultuvate;
 
 MarkerCultuvate.propTypes = {
-  onClick: PropTypes.any,
-  feature: PropTypes.any,
-  markerType: PropTypes.any,
+  onClick: PropTypes.func,
+  feature: PropTypes.object,
+  markerType: PropTypes.string,
 };

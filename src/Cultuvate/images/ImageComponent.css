@@ -1,3 +1,6 @@
 .image-container {
-  display: flex;
+  position: absolute;
+  width: 100%; /* Volle Breite des Container nutzen */
+  height: 100%; /* Volle Höhe des Container nutzen */
 }
+

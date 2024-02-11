@@ -6,14 +6,17 @@ import geoJson from "../mapbox-marker/GeoJSON.json";
 import { useState } from "react";
 
 
+
 const Cultuvate= () => {
 
   const [popupImage, setPopupImage] = useState("")
   const [popQuestName, setPopupQuestName] = useState ("");
+  const [popupTask, setPopupTask] = useState("");
 
   const handleMarkerClick = (feature) => {
     setPopupImage(feature.properties.imagequest);
     setPopupQuestName(feature.properties.quest);
+    setPopupTask(feature.properties.task);
   };
 
   return (
@@ -23,6 +26,7 @@ const Cultuvate= () => {
       <PopupCultuvate
       quest={popQuestName}
       imagequest={popupImage}
+      task={popupTask}
       />)}
     </div>
   );

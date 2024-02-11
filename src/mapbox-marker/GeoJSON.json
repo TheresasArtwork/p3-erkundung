@@ -98,8 +98,9 @@
       "properties": {
         "imagequest": "src/Cultuvate/imageContent/fünffingerturm.png",
         "quest": "Quest2",
-        "title": "Mapbox",
-        "description": "FünffingerTurm"
+        "task": "Embark on a mysterious quest through Darmstadt's cultural tapestry and unravel the enigma surrounding the elusive 'Laternchen.' Local legends speak of this hidden gem, a concoction known only to those who dare to seek it.s",
+        "description": "FünffingerTurm",
+        "title": "Mapbox"
       }
     },
     {
@@ -113,6 +114,7 @@
 
         "imagequest": "src/Cultuvate/imageContent/lantern 1.png",
         "quest": "Quest6",
+        "task": "Use the navigation to find the building shown in the picture. Navigate to the specified coordinates and take a photo to prove that you've discovered the sought-after building",
          "title": "Mapbox",
         "description": "Laternchen Hotzenplotz"
       }
@@ -128,6 +130,7 @@
       "properties": { 
         "imagequest": "src/Cultuvate/imageContent/Photoquest.png",
         "quest": "Quest1",
+        "task": "This is a Photoquest it can only be solved by taking a picture at the location of the quest! Find the location using clues and take a photo to solve the puzzles and prove yourselfs as an explorers!!",
         "title": "Mapbox",
         "description": "Langer Ludwig"
       }

@@ -19,3 +19,8 @@
 .parent-container {
     font-family: "SpartanMB-Regular";
 }
+
+@font-face {
+    font-family: "Inter";
+    src: url("./fonts/Inter.ttc") format("truetype");
+}

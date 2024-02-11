@@ -12,11 +12,19 @@ const Cultuvate= () => {
   const [popupImage, setPopupImage] = useState("")
   const [popQuestName, setPopupQuestName] = useState ("");
   const [popupTask, setPopupTask] = useState("");
+  const [popupQuestTitle, setPopupQuestTitle] = useState ("");
+  const [, setIsPopupOpen] = useState(false);
 
   const handleMarkerClick = (feature) => {
     setPopupImage(feature.properties.imagequest);
     setPopupQuestName(feature.properties.quest);
     setPopupTask(feature.properties.task);
+    setPopupQuestTitle(feature.properties.questtitle);
+    setIsPopupOpen(true);
+  };
+
+  const closePopup = () => {
+    setIsPopupOpen(false);
   };
 
   return (
@@ -24,9 +32,11 @@ const Cultuvate= () => {
       <MapCultuvate geoJson={geoJson} onMarkerClick={handleMarkerClick} />
       {popQuestName && (
       <PopupCultuvate
+      onClose={closePopup}
       quest={popQuestName}
       imagequest={popupImage}
       task={popupTask}
+      questtitle={popupQuestTitle}
       />)}
     </div>
   );

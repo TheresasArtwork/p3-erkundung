@@ -6,11 +6,11 @@ import Button  from "../buttons/Button.jsx";
 
 
 
-const Header = ({quest}) => {
+const Header = ({quest, onClose}) => {
     return (
       <header className="container-header">
         <div>
-          <Button></Button> 
+          <Button onClose={onClose}></Button> 
         </div>
         <div>
            < QuestTitle quest={quest}></QuestTitle>
@@ -23,5 +23,6 @@ const Header = ({quest}) => {
   export default Header;
 
   Header.propTypes ={
-    quest: PropTypes.string
+    quest: PropTypes.string,
+    onClose: PropTypes.func,
   }

@@ -1,3 +1,10 @@
 .task-container {
-    color: green;
+    display: flex;
+    margin: 0 10px; 
+    color: black;
+    font-size: 16px;
+}
+
+p {
+    font-family: "Inter";
 }

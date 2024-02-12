@@ -116,19 +116,19 @@
         "imagequest": "src/Cultuvate/imageContent/lantern 1.png",
         "quest": "Quest6",
         "task": "Use the navigation to find the building shown in the picture. Navigate to the specified coordinates and take a photo to prove that you've discovered the sought-after building",
-         "title": "Mapbox",
+        "title": "Mapbox",
         "description": "Laternchen Hotzenplotz"
       }
     },
     {
       "markerType": "Type3",
-     
+
       "app": "cultuvate",
       "geometry": {
         "type": "Point",
         "coordinates": [8.651195285279627, 49.873460477704526]
       },
-      "properties": { 
+      "properties": {
         "questtitle": "Find the Long Ludwig",
         "imagequest": "src/Cultuvate/imageContent/Photoquest.png",
         "quest": "Quest1",
@@ -146,7 +146,41 @@
       },
       "properties": {
         "title": "Mapbox",
-        "description": " Example",
+        "description": " Take a photo of something spiky",
+        "imageFullScreen": "imageURL"
+      },
+      "user": {
+        "prename": "",
+        "profileImage": ""
+      }
+    },
+    {
+      "markerType": "Type4",
+      "app": "kidquest",
+      "geometry": {
+        "displayImage": "src/KidQuest/images/lake.jpg",
+        "coordinates": [8.65129, 49.87808]
+      },
+      "properties": {
+        "title": "Mapbox",
+        "description": "Find the tallest tree and describe it",
+        "imageFullScreen": "imageURL"
+      },
+      "user": {
+        "prename": "",
+        "profileImage": ""
+      }
+    },
+    {
+      "markerType": "Type4",
+      "app": "kidquest",
+      "geometry": {
+        "displayImage": "src/KidQuest/images/path.jpeg",
+        "coordinates": [8.6533, 49.87651]
+      },
+      "properties": {
+        "title": "Mapbox",
+        "description": "Find a flower and measure it",
         "imageFullScreen": "imageURL"
       },
       "user": {

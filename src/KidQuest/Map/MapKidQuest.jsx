@@ -9,8 +9,8 @@ import "../../index.css";
 
 mapboxgl.accessToken = accessTokenMapbox;
 
-let lat = 8;
-let long = 49;
+let lat = 8.65323;
+let long = 49.87713;
 
 const MapKidQuest = ({ geoJson, onMarkerClick }) => {
   const mapContainerRef = useRef(null);

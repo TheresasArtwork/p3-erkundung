@@ -6,17 +6,19 @@ import { useState } from "react";
 
 const KidQuest = () => {
   const [popupTitle, setPopupTitle] = useState("");
-  const [popupTaskName, setPopupTaskName] = useState("");
+  const [popupMissionName, setPopupMissionName] = useState("");
 
   const handleMarkerClick = (feature) => {
     setPopupTitle("Neuer Popup-Titel");
-    setPopupTaskName(feature.properties.task);
+    setPopupMissionName(feature.properties.mission);
   };
 
   return (
     <div className="parent-container">
       <MapKidQuest geoJson={geoJson} onMarkerClick={handleMarkerClick} />
-      {popupTitle && <PopupKidQuest title={popupTitle} task={popupTaskName} />}
+      {popupTitle && (
+        <PopupKidQuest title={popupTitle} mission={popupMissionName} />
+      )}
     </div>
   );
 };

@@ -1,18 +1,18 @@
 import PropTypes from "prop-types";
 import "../Header/style/Header.css";
 
-const TaskName = ({ task }) => {
+const MissionName = ({ mission }) => {
   return (
     <>
       <div className="container-header">
-        <h1>{task}</h1>
+        <h1>{mission}</h1>
       </div>
     </>
   );
 };
 
-export default TaskName;
+export default MissionName;
 
-TaskName.propTypes = {
-  task: PropTypes.string,
+MissionName.propTypes = {
+  mission: PropTypes.string,
 };

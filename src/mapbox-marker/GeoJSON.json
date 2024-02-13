@@ -132,7 +132,7 @@
         "questtitle": "Find the Long Ludwig",
         "imagequest": "src/Cultuvate/imageContent/Photoquest.png",
         "quest": "Quest1",
-        "task": "This is a Photoquest it can only be solved by taking a picture at the location of the quest! Find the location using clues and take a photo to solve the puzzles and prove yourselfs as an explorers!!",
+        "mission": "This is a Photoquest it can only be solved by taking a picture at the location of the quest! Find the location using clues and take a photo to solve the puzzles and prove yourselfs as an explorers!!",
         "title": "Mapbox",
         "description": "Langer Ludwig"
       }
@@ -147,7 +147,7 @@
       "properties": {
         "title": "Mapbox",
         "taskTitle": "Photo Opportunity",
-        "task": " Take a photo of something spiky",
+        "mission": " Take a photo of something spiky",
         "taskImage": "src/KidQuest/images/actionImage/photograph.png",
         "missonNumber": "Mission 1",
         "imageFullScreen": "imageURL"
@@ -166,7 +166,7 @@
       },
       "properties": {
         "title": "Mapbox",
-        "task": "Find the tallest tree and describe it",
+        "mission": "Find the tallest tree and describe it",
         "taskTitle": "Show and tell",
         "taskImage": "src/KidQuest/images/actionImage/record.png",
         "missonNumber": "Mission 2",
@@ -186,7 +186,7 @@
       },
       "properties": {
         "title": "Mapbox",
-        "task": "Find a flower and measure it",
+        "mission": "Find a flower and measure it",
         "taskTitle": "Scale Seekers",
         "taskImage": "src/KidQuest/images/actionImage/measure.png",
         "missonNumber": "Mission 3",

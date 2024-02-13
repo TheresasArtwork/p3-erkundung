@@ -1,12 +1,12 @@
 import PropTypes from "prop-types";
 import "../Header/style/Header.css";
-import TaskName from "../Header/HeaderTitle";
+import MissionName from "../Header/HeaderTitle";
 
-const Header = ({ task }) => {
+const Header = ({ mission }) => {
   return (
     <header className="container-header">
       <>
-        <TaskName task={task}></TaskName>{" "}
+        <MissionName mission={mission}></MissionName>{" "}
       </>
     </header>
   );
@@ -15,5 +15,5 @@ const Header = ({ task }) => {
 export default Header;
 
 Header.propTypes = {
-  task: PropTypes.string,
+  mission: PropTypes.string,
 };

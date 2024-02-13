@@ -99,7 +99,7 @@
         "questtitle": "Find this Building!",
         "imagequest": "src/Cultuvate/imageContent/fünffingerturm.png",
         "quest": "Quest2",
-        "task": "Embark on a mysterious quest through Darmstadt's cultural tapestry and unravel the enigma surrounding the elusive 'Laternchen.' Local legends speak of this hidden gem, a concoction known only to those who dare to seek it.s",
+        "task": "Use the navigation to find the building shown in the picture. Navigate to the specified coordinates and take a photo to prove that you've discovered the sought-after building",
         "description": "FünffingerTurm",
         "title": "Mapbox"
       }
@@ -115,7 +115,7 @@
         "questtitle": "Find the Laternchen",
         "imagequest": "src/Cultuvate/imageContent/lantern 1.png",
         "quest": "Quest6",
-        "task": "Use the navigation to find the building shown in the picture. Navigate to the specified coordinates and take a photo to prove that you've discovered the sought-after building",
+        "task": "Embark on a mysterious quest through Darmstadt's cultural tapestry and unravel the enigma surrounding the elusive 'Laternchen.' Local legends speak of this hidden gem, a concoction known only to those who dare to seek it.",
         "title": "Mapbox",
         "description": "Laternchen Hotzenplotz"
       }

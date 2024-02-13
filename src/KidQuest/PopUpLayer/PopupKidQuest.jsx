@@ -5,8 +5,9 @@ import Header from "../Header/Header";
 const PopupKidQuest = ({ mission }) => {
   return (
     <>
-      <div className="popup-kidquest"></div>
-      <Header mission={mission}></Header>
+      <div className="popup-kidquest">
+        <Header mission={mission} />
+      </div>
     </>
   );
 };

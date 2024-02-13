@@ -1,33 +1,30 @@
 import PropTypes from "prop-types";
-
-import "../CultuvateHeader/Header.css"
+import "../CultuvateHeader/Header.css";
 import QuestTitle from "./HeaderTitle";
-import Button  from "../buttons/Button.jsx";
+import Button from "../buttons/Button.jsx";
 import CloseButton from "../buttons/Closebutton.jsx";
 
-
-
-const Header = ({quest, onClose}) => {
-    return (
-      <header className="container-header">
+const Header = ({ quest, onClose }) => {
+  return (
+    <header className="container-header">
+      <div>
+        <Button onClose={onClose}></Button>
+      </div>
+      <div>
+        <QuestTitle quest={quest}></QuestTitle>
+      </div>
+      <div>
         <div>
-          <Button onClose={onClose}></Button> 
+          <CloseButton onClose={onClose}></CloseButton>
         </div>
-        <div>
-           < QuestTitle quest={quest}></QuestTitle>
-        </div>
-         <div>
-          <div>
-            <CloseButton onClose={onClose}></CloseButton>
-          </div>
-         </div>
-      </header>
-    );
-  }
-  
-  export default Header;
+      </div>
+    </header>
+  );
+};
 
-  Header.propTypes ={
-    quest: PropTypes.string,
-    onClose: PropTypes.func,
-  }
+export default Header;
+
+Header.propTypes = {
+  quest: PropTypes.string,
+  onClose: PropTypes.func,
+};

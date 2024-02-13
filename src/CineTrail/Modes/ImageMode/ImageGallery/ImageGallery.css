@@ -1,0 +1,20 @@
+.gallery-container {
+  position: relative;
+}
+
+.gallery-image {
+  width: 408px;
+  height: 188px;
+  overflow: hidden;
+}
+
+.img-gallery-controlls {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-between;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -8,7 +8,7 @@ export const imageData = {
     },
     {
       title: "Annoying manager",
-      url: "/images/CineTrail/liberty-annoying-manager.jpg",
+      url: "/images/CineTrail/liberty-most-annoying-manager.jpg",
       clue1: "Look for the jewelry stand",
       clue2: "Search for the Staff Only door",
     },

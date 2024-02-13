@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import "../CultuvateHeader/Header.css"
 import QuestTitle from "./HeaderTitle";
 import Button  from "../buttons/Button.jsx";
+import CloseButton from "../buttons/Closebutton.jsx";
 
 
 
@@ -15,7 +16,11 @@ const Header = ({quest, onClose}) => {
         <div>
            < QuestTitle quest={quest}></QuestTitle>
         </div>
-        <button>Rechts</button>
+         <div>
+          <div>
+            <CloseButton onClose={onClose}></CloseButton>
+          </div>
+         </div>
       </header>
     );
   }

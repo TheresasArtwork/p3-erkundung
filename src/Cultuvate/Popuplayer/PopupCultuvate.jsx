@@ -13,6 +13,7 @@ const PopupCultuvate = ({
   task,
   questtitle,
   onClose,
+  
 }) => {
   
 
@@ -54,4 +55,5 @@ PopupCultuvate.propTypes = {
   quest: PropTypes.string,
   task: PropTypes.string,
   questtitle: PropTypes.string,
+ 
 }

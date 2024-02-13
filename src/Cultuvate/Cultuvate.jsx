@@ -13,18 +13,20 @@ const Cultuvate= () => {
   const [popQuestName, setPopupQuestName] = useState ("");
   const [popupTask, setPopupTask] = useState("");
   const [popupQuestTitle, setPopupQuestTitle] = useState ("");
-  const [, setIsPopupOpen] = useState(false);
+  const [popupProgressBar, setPopupProgressBar] = useState ("");
+  //const [, setIsPopupOpen] = useState(false);
 
   const handleMarkerClick = (feature) => {
     setPopupImage(feature.properties.imagequest);
     setPopupQuestName(feature.properties.quest);
     setPopupTask(feature.properties.task);
     setPopupQuestTitle(feature.properties.questtitle);
-    setIsPopupOpen(true);
+    setPopupProgressBar(feature.properties.progressbar);
+    //setIsPopupOpen(true);
   };
 
   const closePopup = () => {
-    setIsPopupOpen(false);
+    setPopupQuestName("");
   };
 
   return (
@@ -37,6 +39,7 @@ const Cultuvate= () => {
       imagequest={popupImage}
       task={popupTask}
       questtitle={popupQuestTitle}
+      progressbar={popupProgressBar}
       />)}
     </div>
   );

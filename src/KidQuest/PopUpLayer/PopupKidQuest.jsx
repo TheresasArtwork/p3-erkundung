@@ -2,11 +2,11 @@ import "../PopUpLayer/PopupKidQuest.css";
 import PropTypes from "prop-types";
 import Header from "../Header/Header";
 
-const PopupKidQuest = ({ task }) => {
+const PopupKidQuest = ({ mission }) => {
   return (
     <>
       <div className="popup-kidquest"></div>
-      <Header>task={task}</Header>
+      <Header mission={mission}></Header>
     </>
   );
 };
@@ -14,5 +14,5 @@ const PopupKidQuest = ({ task }) => {
 export default PopupKidQuest;
 
 PopupKidQuest.propTypes = {
-  task: PropTypes.string,
+  mission: PropTypes.string,
 };

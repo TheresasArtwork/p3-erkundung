@@ -6,7 +6,7 @@ const Header = ({ mission }) => {
   return (
     <header className="container-header">
       <>
-        <MissionName mission={mission}></MissionName>{" "}
+        <MissionName mission={mission}></MissionName>
       </>
     </header>
   );

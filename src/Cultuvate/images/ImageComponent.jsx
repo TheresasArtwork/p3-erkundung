@@ -1,4 +1,5 @@
 import PropTypes from "prop-types"
+import "../images/ImageComponent.css"
 
 const ImageComponent = ({ imagequest }) => {
   return (

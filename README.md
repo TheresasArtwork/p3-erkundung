@@ -31,3 +31,13 @@ Im PopUp kann das Herz angeklickt werden, sodass ein "like" hinzugefügt wird.
 Nicht umgesetzt:
 Ursprünglich sollte noch das Kommentieren der Fotos eingebaut werden. Das hat sich jedoch auf Grund der knappen Zeit nicht umsetzen lassen, da zuvor zu viel Zeit damit verbracht wurde, die Marker generell separat abzurufen zu können.
 Außerdem wurde nicht umgesetzt, dass das "liken" des Herzes beispielsweise mit localStorage gespeichert wird. Somit ist jedes mal, wenn das PopUp geschlossen wird, das "gelikte" wieder zurückgesetzt.
+
+## Cultuvate - Shekinah Gitumbu
+
+Unter dem Menüpunkt Cultuvate ist ein Teil von Cultuvate als Prototyp erstellt worden. Auf der Karte werden drei Marker gezeigt, die jeweils ein Rätsel der Schnitzeljagd in Darmstadt repräsentieren sollen. An diesen bestimmten GPS-Punkten würden die Spieler folgende aufgabe bekommen. Wird einer der Marker geklickt erscheint ein Rätsel das die Spieler Gemeinsam lösen müssen.
+
+Die verschiedenen Aufgaben und Bilder in dem Popup werden in der GeoJSON wiedergegeben.
+
+Interaktion:
+Die Marker können angeklickt werden.
+Das pop up kann über die Zwei Buttons im Header geschlossen werden.

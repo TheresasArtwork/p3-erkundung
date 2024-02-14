@@ -1,10 +1,10 @@
 .container-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .h1 {
-    font-family: "SpartanMB-Bold";
-    font-size: 20px;
+  font-family: "SpartanMB-Bold";
+  font-size: 20px;
 }

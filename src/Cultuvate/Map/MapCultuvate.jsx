@@ -24,23 +24,22 @@ const MapCultuvate = ({ geoJson, onMarkerClick }) => {
     });
 
     geoJson.allMarker.forEach((feature) => {
-        if (feature.app === "cultuvate") {
-      const ref = React.createRef();
-      ref.current = document.createElement("div");
+      if (feature.app === "cultuvate") {
+        const ref = React.createRef();
+        ref.current = document.createElement("div");
 
-    
-      createRoot(ref.current).render(
-        <MarkerCultuvate
-        onClick={() => onMarkerClick(feature)}
-        feature={feature}
-        markerType={feature.markerType}
-        />
-      );
+        createRoot(ref.current).render(
+          <MarkerCultuvate
+            onClick={() => onMarkerClick(feature)}
+            feature={feature}
+            markerType={feature.markerType}
+          />
+        );
 
-      new mapboxgl.Marker(ref.current)
-        .setLngLat(feature.geometry.coordinates)
-        .addTo(map);
-    }
+        new mapboxgl.Marker(ref.current)
+          .setLngLat(feature.geometry.coordinates)
+          .addTo(map);
+      }
     });
 
     // Add navigation control (the +/- zoom buttons)

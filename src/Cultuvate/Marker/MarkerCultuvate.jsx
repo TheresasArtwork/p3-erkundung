@@ -9,8 +9,10 @@ const MarkerCultuvate = ({ onClick, feature, markerType }) => {
   const partOfApp = `${feature.app}`;
 
   return (
-    <div onClick={_onClick} className={`marker ${partOfApp} ${markerType} `}>
-    </div>
+    <div
+      onClick={_onClick}
+      className={`marker ${partOfApp} ${markerType} `}
+    ></div>
   );
 };
 

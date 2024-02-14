@@ -5,19 +5,25 @@ import geoJson from "../mapbox-marker/GeoJSON.json";
 import { useState } from "react";
 
 const KidQuest = () => {
-  const [popupTitle, setPopupTitle] = useState("");
   const [popupMissionName, setPopupMissionName] = useState("");
+  const [popupMissionType, setPopupMissionType] = useState("");
+  const [popupImage, setPopupImage] = useState("");
 
   const handleMarkerClick = (feature) => {
-    setPopupTitle("Neuer Popup-Titel");
     setPopupMissionName(feature.properties.mission);
+    setPopupMissionType(feature.properties.taskTitle);
+    setPopupImage(feature.properties.missionImage);
   };
 
   return (
     <div className="parent-container">
       <MapKidQuest geoJson={geoJson} onMarkerClick={handleMarkerClick} />
-      {popupTitle && (
-        <PopupKidQuest title={popupTitle} mission={popupMissionName} />
+      {popupMissionName && (
+        <PopupKidQuest
+          mission={popupMissionName}
+          taskTitle={popupMissionType}
+          missionImage={popupImage}
+        />
       )}
     </div>
   );

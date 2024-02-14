@@ -1,0 +1,26 @@
+.mission-type-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 20%;
+}
+
+.mission-name-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.mission-type-container h1 {
+  font-family: "SF-Pro-Display-Regular", sans-serif;
+  font-size: 30px;
+  text-align: left;
+  margin-top: 90px;
+  margin-bottom: 2px;
+}
+
+.mission-name-container h1 {
+  font-family: "SF-Pro-Display-Semibold", sans-serif;
+  font-size: 30px;
+  text-align: left;
+}

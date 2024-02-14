@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import ImageComponent from "../images/ImageComponent";
-
 import "../Contentcontainer/ContentContainer.css";
 
 const ContentContainer = ({ imagequest }) => {

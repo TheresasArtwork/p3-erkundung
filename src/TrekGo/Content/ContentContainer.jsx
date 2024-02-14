@@ -14,7 +14,7 @@ const ContentContainer = ({
 }) => {
   return (
     <>
-      <div className="content-container">
+      <div className="content-social-container">
         <div className="social-container">
           <LikeStatus likedBy={likedBy}></LikeStatus>
           <CommentStatus></CommentStatus>

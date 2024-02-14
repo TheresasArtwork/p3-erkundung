@@ -4,7 +4,7 @@ import "../Header/style/Header.css";
 const MissionName = ({ mission }) => {
   return (
     <>
-      <div className="container-header">
+      <div className="mission-name-container">
         <h1>{mission}</h1>
       </div>
     </>

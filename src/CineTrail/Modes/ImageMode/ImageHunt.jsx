@@ -1,7 +1,6 @@
 import "./ImageHunt.css";
 import { LocationName } from "../Elements/Location/Location";
-import { Image } from "../Elements/Image/Image";
-import { ImageNumber } from "./ImageNumber/ImageNumber";
+import { ImageGallery } from "./ImageGallery/ImageGallery";
 import { Instructions } from "./Instructions/Instructions";
 import { Clue } from "./Clue/Clue";
 
@@ -10,8 +9,7 @@ export function ImageHunt({ location }) {
     <>
       <div>
         <LocationName location={location}></LocationName>
-        <Image location={location}></Image>
-        <ImageNumber></ImageNumber>
+        <ImageGallery location={location}></ImageGallery>
         <Instructions></Instructions>
         <Clue></Clue>
       </div>

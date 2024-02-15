@@ -2,7 +2,7 @@ import "./Instructions.css";
 import {
   SeeInInstruction,
   TurnHorizontalIcon,
-  TimerIcon,
+  PlayInInstructions,
 } from "../../../Icons";
 
 export function Instructions() {
@@ -11,18 +11,20 @@ export function Instructions() {
       <div className="instructions cinetrail-padding">
         <div className="instruction-container">
           <SeeInInstruction></SeeInInstruction>
-          <p className="instruction-text">Tap on the eye to see the scene.</p>
+          <p className="instruction-text">
+            Start your search for the exact scene location.
+          </p>
         </div>
         <div className="instruction-container">
           <TurnHorizontalIcon></TurnHorizontalIcon>
           <p className="instruction-text">
-            Rotate your phone to see the horizontal scene.
+            Rotate your phone to see the scene full screen.
           </p>
         </div>
         <div className="instruction-container">
-          <TimerIcon></TimerIcon>
+          <PlayInInstructions></PlayInInstructions>
           <p className="instruction-text">
-            You wil only get to see the image for 5 seconds.
+            Fould it? Click play to make the scene come to life.
           </p>
         </div>
       </div>

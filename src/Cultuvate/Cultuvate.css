@@ -1,26 +1,26 @@
 @font-face {
-    font-family: "SpartanMB-Regular";
-    src: url("./fonts/spartan-mb/SpartanMB-Regular.otf"); 
-    font-weight: normal;
+  font-family: "SpartanMB-Regular";
+  src: url("./fonts/spartan-mb/SpartanMB-Regular.otf");
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: "SpartanMB-SemiBold";
-    src: url("./fonts/spartan-mb/SpartanMB-SemiBold.otf");
-    font-weight: bold;
+  font-family: "SpartanMB-SemiBold";
+  src: url("./fonts/spartan-mb/SpartanMB-SemiBold.otf");
+  font-weight: bold;
 }
 
 @font-face {
-    font-family: "SpartanMB-Bold";
-    src: url("./fonts/spartan-mb/SpartanMB-Bold.otf");
-    font-weight: bolder;
+  font-family: "SpartanMB-Bold";
+  src: url("./fonts/spartan-mb/SpartanMB-Bold.otf");
+  font-weight: bolder;
 }
 
 .parent-container {
-    font-family: "SpartanMB-Regular";
+  font-family: "SpartanMB-Regular";
 }
 
 @font-face {
-    font-family: "Inter";
-    src: url("./fonts/Inter.ttc") format("truetype");
+  font-family: "Inter";
+  src: url("./fonts/Inter.ttc") format("truetype");
 }

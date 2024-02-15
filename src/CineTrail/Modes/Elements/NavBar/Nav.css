@@ -10,3 +10,15 @@
   display: flex;
   justify-content: space-between;
 }
+
+.mode-icon path,
+.map-icon path,
+.back path {
+  transition: ease-out all 600ms;
+}
+
+.mode-icon:hover path,
+.map-icon:hover path,
+.back:hover path {
+  stroke: var(--blue-accent-color);
+}

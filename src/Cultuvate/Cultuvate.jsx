@@ -1,19 +1,16 @@
-import "../Cultuvate/Cultuvate.css"
+import "../Cultuvate/Cultuvate.css";
 import MapCultuvate from "./Map/MapCultuvate.jsx";
 import PopupCultuvate from "./Popuplayer/PopupCultuvate.jsx";
 import geoJson from "../mapbox-marker/GeoJSON.json";
 
 import { useState } from "react";
 
-
-
-const Cultuvate= () => {
-
-  const [popupImage, setPopupImage] = useState("")
-  const [popQuestName, setPopupQuestName] = useState ("");
+const Cultuvate = () => {
+  const [popupImage, setPopupImage] = useState("");
+  const [popQuestName, setPopupQuestName] = useState("");
   const [popupTask, setPopupTask] = useState("");
-  const [popupQuestTitle, setPopupQuestTitle] = useState ("");
-  const [popupProgressBar, setPopupProgressBar] = useState ("");
+  const [popupQuestTitle, setPopupQuestTitle] = useState("");
+  const [popupProgressBar, setPopupProgressBar] = useState("");
   //const [, setIsPopupOpen] = useState(false);
 
   const handleMarkerClick = (feature) => {
@@ -33,14 +30,15 @@ const Cultuvate= () => {
     <div className="parent-container">
       <MapCultuvate geoJson={geoJson} onMarkerClick={handleMarkerClick} />
       {popQuestName && (
-      <PopupCultuvate
-      onClose={closePopup}
-      quest={popQuestName}
-      imagequest={popupImage}
-      task={popupTask}
-      questtitle={popupQuestTitle}
-      progressbar={popupProgressBar}
-      />)}
+        <PopupCultuvate
+          onClose={closePopup}
+          quest={popQuestName}
+          imagequest={popupImage}
+          task={popupTask}
+          questtitle={popupQuestTitle}
+          progressbar={popupProgressBar}
+        />
+      )}
     </div>
   );
 };

@@ -132,7 +132,7 @@
         "questtitle": "Find the Long Ludwig",
         "imagequest": "src/Cultuvate/imageContent/Photoquest.png",
         "quest": "Quest1",
-        "mission": "This is a Photoquest it can only be solved by taking a picture at the location of the quest! Find the location using clues and take a photo to solve the puzzles and prove yourselfs as an explorers!!",
+        "task": "This is a Photoquest it can only be solved by taking a picture at the location of the quest! Find the location using clues and take a photo to solve the puzzles and prove yourselfs as an explorers!!",
         "title": "Mapbox",
         "description": "Langer Ludwig"
       }

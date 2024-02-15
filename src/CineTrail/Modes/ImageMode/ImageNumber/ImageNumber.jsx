@@ -1,10 +1,11 @@
 import "./ImageNumber.css";
-//import { imageData } from "../../../data/imagedata";
 
-export function ImageNumber() {
+export function ImageNumber({ number, total }) {
   return (
     <>
-      <div className="image-number cinetrail-padding">Image 1/4</div>
+      <div className="image-number cinetrail-padding">
+        Image {number + 1}/{total}
+      </div>
     </>
   );
 }

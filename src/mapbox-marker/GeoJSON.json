@@ -150,7 +150,8 @@
         "mission": " Take a photo of something spiky",
         "missionImage": "src/KidQuest/images/actionImage/photograph.png",
         "missonNumber": "Mission 1",
-        "imageFullScreen": "imageURL"
+        "imageFullScreen": "imageURL",
+        "progress": ""
       },
       "user": {
         "prename": "",
@@ -170,7 +171,8 @@
         "taskTitle": "Show and tell",
         "missionImage": "src/KidQuest/images/actionImage/record.png",
         "missonNumber": "Mission 2",
-        "imageFullScreen": "imageURL"
+        "imageFullScreen": "imageURL",
+        "progress": ""
       },
       "user": {
         "prename": "",
@@ -190,7 +192,8 @@
         "taskTitle": "Scale Seekers",
         "missionImage": "src/KidQuest/images/actionImage/measure.png",
         "missonNumber": "Mission 3",
-        "imageFullScreen": "imageURL"
+        "imageFullScreen": "imageURL",
+        "progress": ""
       },
       "user": {
         "prename": "",

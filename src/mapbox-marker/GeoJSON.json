@@ -6,7 +6,7 @@
       "app": "trekgo",
       "id": 1,
       "location": {
-        "coordinates": [8, 49]
+        "coordinates": [11.145527, 47.333201]
       },
       "properties": {
         "image": "src/TrekGo/images/takenPhotos/Mountain.jpg",
@@ -27,10 +27,10 @@
       "app": "trekgo",
       "id": 2,
       "location": {
-        "coordinates": [8.1, 49]
+        "coordinates": [11.23651, 47.329935]
       },
       "properties": {
-        "image": "src/TrekGo/images/takenPhotos/SnowyMountain.jpg",
+        "image": "src/TrekGo/images/takenPhotos/ReitherSpitze.jpg",
         "recordingDate": "24.07.2023",
         "recordingTime": "13:57"
       },
@@ -48,7 +48,7 @@
       "app": "trekgo",
       "id": 3,
       "location": {
-        "coordinates": [8.2, 49.1]
+        "coordinates": [11.177063, 47.335643]
       },
       "properties": {
         "image": "src/TrekGo/images/takenPhotos/MountainVillage.jpg",

@@ -43,3 +43,10 @@ Die Marker können angeklickt werden.
 Das pop up kann über die Zwei Buttons im Header geschlossen werden.
 
 ## KidQuest - Amy Sutcliffe
+
+Unter dem Menüpunkt KidQuest habe ich ein Teil von meiner Anwendung als Prototyp erstellt. Auf der Karte wird der Herrngarten in Darmstadt gezeigt. Jeder der Marker repräsentiert einen Ort, an dem eine Mission von das Kind zu erledigen ist, mit einer Aktion z.B. Messen, Fotografieren oder Audio aufnehmen. Diese Aktionen werden als theoretische Buttons mit Icons dargestellt.Es wird bei jede Marker eine eigene Art von Mission angezeigt mit jeweils immer ein unterschiedlicher Ziel. Ein Progressbar SVG wird außerdem eingesetzt um darzustellen bei welcher Mission man sich befindet.
+
+Interaktion
+Die Marker können angeklickt werden.
+Der "Done"-Button hat eine hover Funktion
+Der "Done"-Button des PopUps schließt das PopUp.

@@ -1,0 +1,18 @@
+.button-style {
+  position: fixed;
+  bottom: 23vh;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 90%;
+  max-height: 100%;
+  padding: 10px 60px;
+  border-radius: 20px;
+  border: none;
+  background-color: #4c7701;
+  color: white;
+  font-size: 20px;
+}
+
+.button-style:hover {
+  background-color: #d6dfc9;
+}

@@ -148,9 +148,9 @@
         "title": "Mapbox",
         "taskTitle": "Photo Opportunity",
         "mission": " Take a photo of something spiky",
-        "missionImage": "src/KidQuest/images/actionImage/photograph.png",
+        "missionImage": "src/KidQuest/images/actionImage/photograph.svg",
         "missonNumber": "Mission 1",
-        "progress": "src/KidQuest/images/progressImage/Mission1.png"
+        "progress": "src/KidQuest/images/progressImage/Mission1.svg"
       },
       "user": {
         "prename": "",
@@ -168,9 +168,9 @@
         "title": "Mapbox",
         "mission": "Find the tallest tree and describe it",
         "taskTitle": "Show and tell",
-        "missionImage": "src/KidQuest/images/actionImage/record.png",
+        "missionImage": "src/KidQuest/images/actionImage/record.svg",
         "missonNumber": "Mission 2",
-        "progress": "src/KidQuest/images/progressImage/Mission2.png"
+        "progress": "src/KidQuest/images/progressImage/Mission2.svg"
       },
       "user": {
         "prename": "",
@@ -188,9 +188,10 @@
         "title": "Mapbox",
         "mission": "Find a flower and measure it",
         "taskTitle": "Scale Seekers",
-        "missionImage": "src/KidQuest/images/actionImage/measure.png",
+        "missionImage": "src/KidQuest/images/actionImage/measure.svg",
         "missonNumber": "Mission 3",
-        "progress": "src/KidQuest/images/progressImage/Mission3.png"
+        "imageFullScreen": "imageURL",
+        "progress": "src/KidQuest/images/progressImage/Mission3.svg"
       },
       "user": {
         "prename": "",

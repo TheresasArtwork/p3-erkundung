@@ -17,6 +17,10 @@ const KidQuest = () => {
     setPopupImage(feature.properties.missionImage);
   };
 
+  const closePopup = () => {
+    setPopupMissionName("");
+  };
+
   return (
     <div className="parent-container">
       <MapKidQuest geoJson={geoJson} onMarkerClick={handleMarkerClick} />
@@ -26,6 +30,7 @@ const KidQuest = () => {
           mission={popupMissionName}
           taskTitle={popupMissionType}
           missionImage={popupImage}
+          onClose={closePopup}
         />
       )}
     </div>

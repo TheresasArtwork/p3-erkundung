@@ -21,7 +21,7 @@ const MapKidQuest = ({ geoJson, onMarkerClick }) => {
       container: mapContainerRef.current,
       style: "mapbox://styles/mapbox/light-v10",
       center: [lat, long],
-      zoom: 10,
+      zoom: 15,
     });
 
     geoJson.allMarker.forEach((feature) => {

@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import "../images/ImageCompon.css";
 
 const ImageCompon = ({ missionImage }) => {
   return (

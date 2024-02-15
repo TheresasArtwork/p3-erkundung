@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 import "./styles/CommentInput.css";
 
 const CommentInput = ({ userFirstName }) => {
@@ -17,3 +19,7 @@ const CommentInput = ({ userFirstName }) => {
 };
 
 export default CommentInput;
+
+CommentInput.propTypes = {
+  userFirstName: PropTypes.string,
+};

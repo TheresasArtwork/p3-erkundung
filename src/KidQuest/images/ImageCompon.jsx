@@ -3,9 +3,11 @@ import "../images/ImageCompon.css";
 
 const ImageCompon = ({ missionImage }) => {
   return (
-    <div className="image-container">
-      <img src={missionImage} alt="Image" />
-    </div>
+    <>
+      <div className="image-container">
+        <img src={missionImage} alt="Image" />
+      </div>
+    </>
   );
 };
 

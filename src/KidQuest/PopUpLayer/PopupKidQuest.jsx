@@ -3,23 +3,21 @@ import PropTypes from "prop-types";
 import Header from "../Header/Header";
 import Content from "../Content/Content";
 
-const PopupKidQuest = ({ mission, taskTitle, missionImage }) => {
+const PopupKidQuest = ({ progress, mission, taskTitle, missionImage }) => {
   return (
-    <>
-      <div className="popup-kidquest">
-        <Header taskTitle={taskTitle} />
-        <Header mission={mission} />
-        <div className="content-container">
-          <Content missionImage={missionImage} />
-        </div>
+    <div className="popup-kidquest">
+      <Header progress={progress} mission={mission} taskTitle={taskTitle} />
+      <div className="content-container">
+        <Content missionImage={missionImage} />
       </div>
-    </>
+    </div>
   );
 };
 
 export default PopupKidQuest;
 
 PopupKidQuest.propTypes = {
+  progress: PropTypes.string,
   mission: PropTypes.string,
   taskTitle: PropTypes.string,
   missionImage: PropTypes.string,

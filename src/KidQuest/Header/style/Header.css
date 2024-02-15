@@ -1,26 +1,30 @@
-.mission-type-container {
+.container-header {
   display: flex;
-  justify-content: left;
+  flex-direction: column;
   align-items: center;
-  height: 20%;
 }
 
-.mission-name-container {
-  display: flex;
-  justify-content: left;
-  align-items: center;
+.progress-container {
+  width: 100%;
+  text-align: center;
+}
+
+.mission-container {
+  width: 100%;
+  text-align: space-between;
+  margin-left: 30px;
 }
 
 .mission-type-container h1 {
   font-family: "SF-Pro-Display-Regular", sans-serif;
   font-size: 30px;
   text-align: left;
-  margin-top: 90px;
-  margin-bottom: 2px;
 }
 
 .mission-name-container h1 {
+  width: 95%;
   font-family: "SF-Pro-Display-Semibold", sans-serif;
   font-size: 30px;
   text-align: left;
+  margin-top: -15px;
 }

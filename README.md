@@ -41,3 +41,5 @@ Die verschiedenen Aufgaben und Bilder in dem Popup werden in der GeoJSON wiederg
 Interaktion:
 Die Marker können angeklickt werden.
 Das pop up kann über die Zwei Buttons im Header geschlossen werden.
+
+## KidQuest - Amy Sutcliffe

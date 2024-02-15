@@ -5,3 +5,7 @@
   align-items: center;
   margin-top: 16px;
 }
+
+.likeStatus-container img {
+  cursor: pointer;
+}

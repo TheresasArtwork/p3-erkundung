@@ -6,7 +6,7 @@ import CloseButton from "../buttons/Closebutton.jsx";
 
 const Header = ({ quest, onClose }) => {
   return (
-    <header className="container-header">
+    <div className="containers-header">
       <div>
         <Button onClose={onClose}></Button>
       </div>
@@ -18,7 +18,7 @@ const Header = ({ quest, onClose }) => {
           <CloseButton onClose={onClose}></CloseButton>
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 
